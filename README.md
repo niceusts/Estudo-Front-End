@@ -1,4 +1,4 @@
-# desafio-dio
+# Estudo curso NodeJs na DIO
 Desafio de projeto sobre Git/Github
 
 ## Links úteis
