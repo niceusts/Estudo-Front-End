@@ -38,9 +38,19 @@
             justify-content: space-around ;
         }
 
+        .quad-um{
+            align-self: center;
+        }
+
+        .column{
+            flex-direction: column;
+            min-height: 200px;
+        }
+
     </style>
 </head>
 <body>
+    <h1>row</h1>
     <h2>flex-start</h2>
     <section class="container flex-start">
         <div class="item">1</div>
@@ -75,5 +85,44 @@
         <div class="item">2 item</div>
         <div class="item">outro item</div>
     </section>
+
+    <h1>column</h1>
+    
+    <h2>flex- start column</h2>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">2 item</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h2>flex-end column</h2>
+    <section class="container flex-start flex-end column">
+        <div class="item">1</div>
+        <div class="item">2 item</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h2>center column</h2>
+    <section class="container flex-center column">
+        <div class="item">1</div>
+        <div class="item">2 item</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h2>between column</h2>
+    <section class="container flex-between column">
+        <div class="item">1</div>
+        <div class="item">2 item</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h2>araund column</h2>
+    <section class="container flex-around column">
+        <div class="item">1</div>
+        <div class="item">2 item</div>
+        <div class="item">outro item</div>
+    </section>
+
+
 </body>
 </html>
